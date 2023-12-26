@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
+<id>https://portfolio.racca.me</id>
+<title><![CDATA[Portfolio di Sebastiano Racca]]></title>
+<subtitle>
+<![CDATA[Portfolio Digitale di Sebastiano Racca]]>
+</subtitle>
+<icon>https://portfolio.racca.me/favicon.png</icon>
+<link href="https://portfolio.racca.me"/>
+<link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
+<updated>2023-12-26T16:27:05.696Z</updated>
+<author>
+  <name><![CDATA[Sebastiano Racca]]></name>
+</author>
+<category term="Anno-2022" scheme="https://portfolio.racca.me/?tags=tags-Anno=2022" />
+<category term="Materia-italiano" scheme="https://portfolio.racca.me/?tags=tags-Materia=italiano" />
+<category term="Materia-tpsi" scheme="https://portfolio.racca.me/?tags=tags-Materia=tpsi" />
+<entry>
+    <title type="html"><![CDATA[Violenza di Genere e Femminicidi]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/violenza-di-genere" />
+    <id>https://portfolio.racca.me/violenza-di-genere</id>
+    <published>2022-11-29T09:45:49.000Z</published>
+    <updated>2023-11-11T12:10:02.000Z</updated>
+    <summary type="html"><![CDATA[Lezione sulla violenza di genere e i femminicidi]]></summary>
+    <content type="html"><![CDATA[<h2 id="da-lucrezia-al-codice-rosso"><a href="#da-lucrezia-al-codice-rosso">Da Lucrezia al Codice Rosso</a></h2>
+<p>La Biblioteca Universitaria Nazionale di Torino ha collaborato con diverse organizzazioni per un evento dal titolo &quot;Da Lucrezia a Codice Rosso&quot; in occasione della Giornata internazionale per l&#39;eliminazione della violenza contro le donne.
+La giornata commemora le sorelle Mirabal che sono state uccise nella Repubblica Dominicana e le Nazioni Unite hanno ufficialmente istituzionalizzato la giornata nel 1999.
+L&#39;evento ha lo scopo di sensibilizzare l&#39;opinione pubblica sul diffuso e devastante problema della violenza contro le donne, che spesso non viene denunciata a causa dell&#39;impunità, del silenzio, dello stigma e della vergogna.
+La biblioteca ha digitalizzato il suo importante archivio di documenti, manifesti e foto relativi alla vita politica delle donne e alla nascita di organizzazioni come il &quot;Tribunale dell&#39;8 marzo&quot; e il &quot;Telefono Rosa&quot;.
+La biblioteca digitale è accessibile sul <a href="http://archiviodigitale.udi.it/" rel="external" >sito web nazionale dell&#39;UDI</a>.
+La violenza contro le donne è un problema globale radicato in fattori storici, sociali e culturali.</p>
+<Youtube id="9p800T0LhB4" />
+
+
+<h2 id="violenza-di-genere-dati-aspetti-legali-e-psicologici"><a href="#violenza-di-genere-dati-aspetti-legali-e-psicologici">Violenza di genere: dati, aspetti legali e psicologici</a></h2>
+<p>Il video sottostante  affronta il tema della violenza di genere, evidenziando la necessità di un&#39;attenzione e di una consapevolezza continue.
+Viene presentata una serie di dati aggiornati sulla violenza di genere durante la pandemia di COVID-19, che mostrano un aumento dei casi di violenza domestica.
+Il video solleva preoccupazioni sulla facilità con cui i perpetratori possono avvicinarsi alle loro vittime nonostante le precedenti denunce.
+Viene sottolineata l&#39;importanza di attuare le leggi e le misure esistenti, come i dispositivi di monitoraggio elettronico, per garantire la sicurezza delle vittime e la necessità di finanziamenti adeguati per fornire misure di sicurezza alle vittime e sottolinea la mancanza di fiducia e paura tra le vittime nel denunciare gli incidenti.
+Le statistiche rivelano la gravità del problema, con molte vittime che hanno già denunciato incidenti precedenti ai femminicidi.</p>
+<Youtube id="GrAGp2g3FRU" />
+
+
+<h2 id="femminicidio-e-violenza-di-genere-in-italia"><a href="#femminicidio-e-violenza-di-genere-in-italia">Femminicidio e violenza di genere in Italia</a></h2>
+<p>Il video sottostante parla della scoperta della sepoltura di una cacciatrice in Perù che sfida la nozione tradizionale di uomini come cacciatori e donne come prede.
+La violenza simbolica è una forma di violenza che perpetua la disuguaglianza di genere attraverso stereotipi, pregiudizi e strutture di potere.
+Le strutture culturali e storiche hanno imposto il dominio degli uomini e la subordinazione delle donne per millenni.
+Il linguaggio e la legge sono espressioni simboliche di potere che rafforzano le gerarchie di genere e determinano ciò che è riconosciuto e rappresentato.
+Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono alla loro subordinazione e mancanza di azione.</p>
+<Youtube id="RwiiIerA_ps" />
+]]></content>
+    <category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
+<category term="Materia-italiano" scheme="https://portfolio.racca.me/?Materia=italiano" />
+    </entry>
+<entry>
+    <title type="html"><![CDATA[La Storia dell'Informatica]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/storia-di-informatica" />
+    <id>https://portfolio.racca.me/storia-di-informatica</id>
+    <published>2022-10-19T10:07:56.000Z</published>
+    <updated>2022-10-19T10:07:56.000Z</updated>
+    <summary type="html"><![CDATA[Esposizione sulla storia dell'informatica]]></summary>
+    <content type="html"><![CDATA[<Powerpoint src="https://docs.google.com/presentation/d/e/2PACX-1vQehNNM-H0KZqb-Mda_9iiH-w_S20ELqA67k9Kpv-IazmcEc_Cgw6qDx1iXogDVk504Szx7YKFolHnC/embed?start=false&loop=false&delayms=5000" title="storia dell'informatica"/>
+]]></content>
+    <category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
+<category term="Materia-tpsi" scheme="https://portfolio.racca.me/?Materia=tpsi" />
+    </entry>
+<entry>
+    <title type="html"><![CDATA[La Storia della Mafia e le Stragi]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/storia-della-mafia" />
+    <id>https://portfolio.racca.me/storia-della-mafia</id>
+    <published>2022-03-06T14:58:38.000Z</published>
+    <updated>2022-11-29T09:45:49.000Z</updated>
+    <summary type="html"><![CDATA[Lezioni sulla storia della mafia e le stragi, incontri con le Agende Rosse]]></summary>
+    <content type="html"><![CDATA[<h2 id="agende-rosse"><a href="#agende-rosse">Agende Rosse</a></h2>
+<p>Il Movimento Agende Rosse è costituito da cittadini che agiscono affinché sia fatta piena luce sulla strage di Via D’Amelio a Palermo del 19 luglio 1992 nella quale furono uccisi il Magistrato Paolo Borsellino e gli agenti di Polizia Emanuela Loi, Agostino Catalano, Claudio Traina, Eddie Walter Cosina e Vincenzo Li Muli.</p>
+<p>Il Movimento nasce su impulso di Salvatore Borsellino il quale il 15 luglio 2007 scrive la lettera intitolata “19 luglio 1992: una strage di Stato” nella quale afferma che la ragione principale della morte del fratello Paolo è da ricercarsi nell’accordo di non belligeranza stabilito tra pezzi dello Stato e Cosa Nostra in seguito ad una trattativa fondata sul tritolo delle stragi in Sicilia del 1992 ed in continente del 1993.
+Salvatore Borsellino chiede di avere delle risposte sulle omissioni delle più elementari misure di sicurezza in via D’Amelio il giorno della strage e di sforzare la memoria ad alcuni rappresentanti delle Istituzioni che incontrarono Paolo Borsellino nelle sue ultime settimane di vita e che pertanto conoscono elementi fondamentali per ricostruire lo scenario in cui maturò l’accelerazione della fase esecutiva dell’eccidio.</p>
+<h3 id="gli-incontri"><a href="#gli-incontri">Gli incontri</a></h3>
+<p>Durante gli incontri con il movimento, abbiamo avuto modo di immergerci nella ricerca della piena verità su moventi e mandanti della strage di via D’Amelio, avendo la possibilità di fare domande e ricevere risposte immediate e, soprattutto, che rispecchiassero la realtà.</p>
+<p><ImgZoom src="/storia-della-mafia/foto-di-classe.jpg" alt="Foto di Classe"></ImgZoom></p>
+<h2 id="30-anni-dalle-stragi-di-mafia"><a href="#30-anni-dalle-stragi-di-mafia">30 anni dalle stragi di mafia</a></h2>
+<p>Il video sottostante affronta il tema degli omicidi di mafia in Italia.</p>
+<p>In particolare esplora la storia delle organizzazioni mafiose in Italia, tra cui Cosa Nostra, &#39;Ndrangheta e Camorra.
+I magistrati Giovanni Falcole e paolo Borsellino hanno svolto un ruolo cruciale nelle indagini e nel perseguimento dei reati di mafia negli anni &#39;80.
+Il video parla proprio degli attentati che uccisero i due magistrati, mettendo in risalto il collegamento con le condanne del Maxi Processo.</p>
+<Youtube id="CKy4xEEwGrc" />
+
+
+<h2 id="strage-di-viale-lazio"><a href="#strage-di-viale-lazio">Strage di viale Lazio</a></h2>
+<p>Il video sottostante parla di uno degli omicidi mafiosi più brutali della storia di Cosa Nostra: la strage di Viale Lazio, includendo anche le testimonianze di tre collaboratori di giustizia: Tommaso Buscetta, Gaetano Grado e Rosario Naimo.</p>
+<Youtube id="OrEOgcF6f00" />
+
+
+<h2 id="peppino-impastato"><a href="#peppino-impastato">Peppino Impastato</a></h2>
+<p>Il video sottostante parla della vita di Giuseppe Impastato, detto Peppino, che ha combattuto contro la mafia in Sicilia negli anni &#39;70.</p>
+<Youtube id="ag1_vfwzgFA" />
+]]></content>
+    <category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
+<category term="Materia-italiano" scheme="https://portfolio.racca.me/?Materia=italiano" />
+    </entry>
+</feed>
