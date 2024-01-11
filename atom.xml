@@ -8,13 +8,32 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-07T18:22:14.695Z</updated>
+<updated>2024-01-11T10:26:11.871Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
 <category term="Anno-2022" scheme="https://portfolio.racca.me/?tags=tags-Anno=2022" />
+<category term="Anno-2023" scheme="https://portfolio.racca.me/?tags=tags-Anno=2023" />
+<category term="Materia-Italiano" scheme="https://portfolio.racca.me/?tags=tags-Materia=Italiano" />
 <category term="Materia-italiano" scheme="https://portfolio.racca.me/?tags=tags-Materia=italiano" />
 <category term="Materia-tpsi" scheme="https://portfolio.racca.me/?tags=tags-Materia=tpsi" />
+<entry>
+    <title type="html"><![CDATA[Progetto Carcere Territorio]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/carcere-territorio" />
+    <id>https://portfolio.racca.me/carcere-territorio</id>
+    <published>2023-10-24T19:00:00.000Z</published>
+    <updated>2023-10-24T19:00:00.000Z</updated>
+    <summary type="html"><![CDATA[Progetto Carcere Territorio]]></summary>
+    <content type="html"><![CDATA[<h2 id="spettacolo-and-quot-le-finestre-and-quot"><a href="#spettacolo-and-quot-le-finestre-and-quot">Spettacolo &quot;Le Finestre&quot;</a></h2>
+<p>Il 24 Ottobre 2023 ho avuto il piacere di partecipare come spettatore allo spettacolo &quot;Finestre&quot; all&#39;interno dell ospedale Lorusso e Cotugno.
+Lo spettacolo parla direttamente allo spettatore della speranza e del buio: avere il nulla come prospettiva dopo l’uscita dal carcere.</p>
+<p>Seppure i carcerati non abbiano speranza di trovare una vita migliore al di fuori del carcere, &quot;Le Finestre&quot;, racconta proprio di questa virtù.</p>
+<p><ImgZoom src="/carcere-territorio/lo-spettacolo.jpg" alt="Lo Spettacolo"></ImgZoom></p>
+]]></content>
+    <category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
+<category term="Materia-Italiano" scheme="https://portfolio.racca.me/?Materia=Italiano" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[Violenza di Genere e Femminicidi]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
