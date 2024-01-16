@@ -46,6 +46,6 @@ Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono a
 
 ## Million Dollar Baby
 A short essay about the film "Million Dollar Baby".
-<object data="/violenza-di-genere/million-dollar-baby.pdf" type="application/pdf" width="100%" height="500px">
+<object data="/violenza-di-genere/million-dollar-baby.pdf" type="application/pdf" width="100%" height="500px" title="Milion Dollar Baby short Essay">
   <p>Impossibile mostrare il PDF. <a href="/violenza-di-genere/million-dollar-baby.pdf">Scarica</a>.</p>
 </object>
