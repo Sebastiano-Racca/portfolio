@@ -1,18 +1,18 @@
 const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), o = [
-  a + "/_app/immutable/entry/app.7c95a854.js",
+  a + "/_app/immutable/entry/app.bf6b0029.js",
   a + "/_app/immutable/assets/0.de8957e6.css",
-  a + "/_app/immutable/nodes/0.4acaa75f.js",
-  a + "/_app/immutable/nodes/1.50bc2566.js",
+  a + "/_app/immutable/nodes/0.c4ed0cfd.js",
+  a + "/_app/immutable/nodes/1.1163d738.js",
   a + "/_app/immutable/assets/404.9de340c4.webp",
   a + "/_app/immutable/assets/2.9c2a354b.css",
-  a + "/_app/immutable/nodes/2.d1be066b.js",
-  a + "/_app/immutable/nodes/3.62273b55.js",
-  a + "/_app/immutable/nodes/4.5a410aeb.js",
+  a + "/_app/immutable/nodes/2.6eb1c63e.js",
+  a + "/_app/immutable/nodes/3.a1729ef1.js",
+  a + "/_app/immutable/nodes/4.1ec2cffd.js",
   a + "/_app/immutable/assets/5.8b541c7d.css",
-  a + "/_app/immutable/nodes/5.52fc3487.js",
-  a + "/_app/immutable/nodes/6.da86e751.js",
-  a + "/_app/immutable/assets/404.3df25504.avif",
-  a + "/_app/immutable/chunks/i18n-svelte.85c3aeba.js",
+  a + "/_app/immutable/nodes/5.e0f83250.js",
+  a + "/_app/immutable/nodes/6.7d23ee23.js",
+  a + "/_app/immutable/assets/404.936a22c6.avif",
+  a + "/_app/immutable/chunks/i18n-svelte.fea32a0d.js",
   a + "/_app/immutable/assets/avatar.9d2117a3.png",
   a + "/_app/immutable/assets/avatar.f6a08045.avif",
   a + "/_app/immutable/assets/avatar.ec2b368f.webp",
@@ -21,8 +21,8 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), o
   a + "/_app/immutable/assets/avatar.fa6b069e.jpeg",
   a + "/_app/immutable/assets/avatar.df189fa7.jpeg",
   a + "/_app/immutable/assets/qwer.77ae3ceb.webp",
-  a + "/_app/immutable/chunks/image_banner.7ed1ebc5.js",
-  a + "/_app/immutable/assets/404.936a22c6.avif",
+  a + "/_app/immutable/chunks/image_banner.1ca5916d.js",
+  a + "/_app/immutable/assets/404.3df25504.avif",
   a + "/_app/immutable/assets/avatar.d57963db.avif",
   a + "/_app/immutable/assets/avatar.79e8785a.avif",
   a + "/_app/immutable/assets/default_og_card.a8bc64fd.avif",
@@ -69,9 +69,9 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), o
   a + "/_app/immutable/assets/cover.e72ac826.avif",
   a + "/_app/immutable/assets/cover.a0d01876.avif",
   a + "/_app/immutable/assets/cover.5ec52c41.jpg",
-  a + "/_app/immutable/chunks/image_zoom.291ed586.js",
+  a + "/_app/immutable/chunks/image_zoom.fe75fb8c.js",
   a + "/_app/immutable/chunks/index.f3b46ba6.js",
-  a + "/_app/immutable/chunks/post.2dd68bf6.js",
+  a + "/_app/immutable/chunks/post.d4698515.js",
   a + "/_app/immutable/assets/post.20994fb9.css",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.0cdd387c.woff2",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.30da91e8.woff",
@@ -133,12 +133,12 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), o
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.e14fed02.woff",
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.f01f3e87.ttf",
   a + "/_app/immutable/chunks/scheduler.e99bcb8c.js",
-  a + "/_app/immutable/chunks/singletons.1173828e.js",
-  a + "/_app/immutable/chunks/timeFormat.eba21eea.js",
-  a + "/_app/immutable/chunks/tippy.7499fdf0.js",
+  a + "/_app/immutable/chunks/singletons.d2e3bfcd.js",
+  a + "/_app/immutable/chunks/timeFormat.95c7ac9d.js",
+  a + "/_app/immutable/chunks/tippy.2de6e395.js",
   a + "/_app/immutable/assets/tippy.7df0e90e.css",
-  a + "/_app/immutable/chunks/youtube.435f1c28.js",
-  a + "/_app/immutable/entry/start.8625677c.js"
+  a + "/_app/immutable/chunks/youtube.15b4bdf3.js",
+  a + "/_app/immutable/entry/start.49f5dc6a.js"
 ], u = [
   a + "/favicon.ico",
   a + "/favicon.png",
@@ -167,7 +167,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), o
   a + "/storia-di-informatica",
   a + "/versions.json",
   a + "/violenza-di-genere"
-], l = "1705395339635", p = self, f = `cache${l}`, b = o.concat(u).concat(_), r = new Set(b);
+], l = "1705398058867", p = self, f = `cache${l}`, b = o.concat(u).concat(_), r = new Set(b);
 p.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(f).then((s) => s.addAll(b)).then(() => {

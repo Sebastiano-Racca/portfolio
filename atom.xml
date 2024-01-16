@@ -8,16 +8,15 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-16T08:56:30.282Z</updated>
+<updated>2024-01-16T09:41:49.632Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
+<category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
+<category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
+<category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
 <category term="Anno-2022" scheme="https://portfolio.racca.me/?tags=tags-Anno=2022" />
 <category term="Anno-2023" scheme="https://portfolio.racca.me/?tags=tags-Anno=2023" />
-<category term="Materia-Italiano" scheme="https://portfolio.racca.me/?tags=tags-Materia=Italiano" />
-<category term="Materia-italiano" scheme="https://portfolio.racca.me/?tags=tags-Materia=italiano" />
-<category term="Materia-tpsi" scheme="https://portfolio.racca.me/?tags=tags-Materia=tpsi" />
-<category term="inglese" scheme="https://portfolio.racca.me/?tags=inglese" />
 <entry>
     <title type="html"><![CDATA[Progetto Carcere Territorio]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
@@ -32,8 +31,8 @@ Lo spettacolo parla direttamente allo spettatore della speranza e del buio: aver
 <p>Seppure i carcerati non abbiano speranza di trovare una vita migliore al di fuori del carcere, &quot;Le Finestre&quot;, racconta proprio di questa virtù.</p>
 <p><ImgZoom src="/carcere-territorio/lo-spettacolo.jpg" alt="Lo Spettacolo"></ImgZoom></p>
 ]]></content>
-    <category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
-<category term="Materia-Italiano" scheme="https://portfolio.racca.me/?Materia=Italiano" />
+    <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
+<category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Violenza di Genere e Femminicidi]]></title>
@@ -72,13 +71,14 @@ Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono a
 
 <h2 id="million-dollar-baby"><a href="#million-dollar-baby">Million Dollar Baby</a></h2>
 <p>A short essay about the film &quot;Million Dollar Baby&quot;.
-<object data="/violenza-di-genere/million-dollar-baby.pdf" type="application/pdf" width="100%" height="500px">
+<object data="/violenza-di-genere/million-dollar-baby.pdf" type="application/pdf" width="100%" height="500px" title="Milion Dollar Baby short Essay">
   <p>Impossibile mostrare il PDF. <a href="/violenza-di-genere/million-dollar-baby.pdf">Scarica</a>.</p>
 </object></p>
 ]]></content>
-    <category term="inglese" scheme="https://portfolio.racca.me/?tags=inglese" />
+    <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
+<category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
 <category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
-<category term="Materia-italiano" scheme="https://portfolio.racca.me/?Materia=italiano" />
+<category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
     </entry>
 <entry>
     <title type="html"><![CDATA[La Storia dell'Informatica]]></title>
@@ -90,8 +90,8 @@ Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono a
     <summary type="html"><![CDATA[Esposizione sulla storia dell'informatica]]></summary>
     <content type="html"><![CDATA[<Powerpoint src="https://docs.google.com/presentation/d/e/2PACX-1vQehNNM-H0KZqb-Mda_9iiH-w_S20ELqA67k9Kpv-IazmcEc_Cgw6qDx1iXogDVk504Szx7YKFolHnC/embed?start=false&loop=false&delayms=5000" title="storia dell'informatica"/>
 ]]></content>
-    <category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
-<category term="Materia-tpsi" scheme="https://portfolio.racca.me/?Materia=tpsi" />
+    <category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
+<category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
     </entry>
 <entry>
     <title type="html"><![CDATA[La Storia della Mafia e le Stragi]]></title>
@@ -125,7 +125,7 @@ Il video parla proprio degli attentati che uccisero i due magistrati, mettendo i
 <p>Il video sottostante parla della vita di Giuseppe Impastato, detto Peppino, che ha combattuto contro la mafia in Sicilia negli anni &#39;70.</p>
 <Youtube id="ag1_vfwzgFA" />
 ]]></content>
-    <category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
-<category term="Materia-italiano" scheme="https://portfolio.racca.me/?Materia=italiano" />
+    <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
+<category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
     </entry>
 </feed>
