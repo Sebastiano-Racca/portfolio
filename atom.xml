@@ -8,7 +8,7 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-11T10:26:11.871Z</updated>
+<updated>2024-01-16T08:56:30.282Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -17,6 +17,7 @@
 <category term="Materia-Italiano" scheme="https://portfolio.racca.me/?tags=tags-Materia=Italiano" />
 <category term="Materia-italiano" scheme="https://portfolio.racca.me/?tags=tags-Materia=italiano" />
 <category term="Materia-tpsi" scheme="https://portfolio.racca.me/?tags=tags-Materia=tpsi" />
+<category term="inglese" scheme="https://portfolio.racca.me/?tags=inglese" />
 <entry>
     <title type="html"><![CDATA[Progetto Carcere Territorio]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
@@ -40,7 +41,7 @@ Lo spettacolo parla direttamente allo spettatore della speranza e del buio: aver
     <link href="https://portfolio.racca.me/violenza-di-genere" />
     <id>https://portfolio.racca.me/violenza-di-genere</id>
     <published>2022-11-29T09:45:49.000Z</published>
-    <updated>2023-11-11T12:10:02.000Z</updated>
+    <updated>2023-11-23T12:10:02.000Z</updated>
     <summary type="html"><![CDATA[Lezione sulla violenza di genere e i femminicidi]]></summary>
     <content type="html"><![CDATA[<h2 id="da-lucrezia-al-codice-rosso"><a href="#da-lucrezia-al-codice-rosso">Da Lucrezia al Codice Rosso</a></h2>
 <p>La Biblioteca Universitaria Nazionale di Torino ha collaborato con diverse organizzazioni per un evento dal titolo &quot;Da Lucrezia a Codice Rosso&quot; in occasione della Giornata internazionale per l&#39;eliminazione della violenza contro le donne.
@@ -68,8 +69,15 @@ Le strutture culturali e storiche hanno imposto il dominio degli uomini e la sub
 Il linguaggio e la legge sono espressioni simboliche di potere che rafforzano le gerarchie di genere e determinano ciò che è riconosciuto e rappresentato.
 Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono alla loro subordinazione e mancanza di azione.</p>
 <Youtube id="RwiiIerA_ps" />
+
+<h2 id="million-dollar-baby"><a href="#million-dollar-baby">Million Dollar Baby</a></h2>
+<p>A short essay about the film &quot;Million Dollar Baby&quot;.
+<object data="/violenza-di-genere/million-dollar-baby.pdf" type="application/pdf" width="100%" height="500px">
+  <p>Impossibile mostrare il PDF. <a href="/violenza-di-genere/million-dollar-baby.pdf">Scarica</a>.</p>
+</object></p>
 ]]></content>
-    <category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
+    <category term="inglese" scheme="https://portfolio.racca.me/?tags=inglese" />
+<category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
 <category term="Materia-italiano" scheme="https://portfolio.racca.me/?Materia=italiano" />
     </entry>
 <entry>

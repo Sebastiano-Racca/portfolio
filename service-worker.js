@@ -1,18 +1,18 @@
-const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u = [
-  a + "/_app/immutable/entry/app.e1ae3d29.js",
+const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), o = [
+  a + "/_app/immutable/entry/app.7c95a854.js",
   a + "/_app/immutable/assets/0.de8957e6.css",
-  a + "/_app/immutable/nodes/0.90adb2cc.js",
-  a + "/_app/immutable/nodes/1.e4155ca3.js",
+  a + "/_app/immutable/nodes/0.4acaa75f.js",
+  a + "/_app/immutable/nodes/1.50bc2566.js",
   a + "/_app/immutable/assets/404.9de340c4.webp",
   a + "/_app/immutable/assets/2.9c2a354b.css",
-  a + "/_app/immutable/nodes/2.0f6a24a2.js",
-  a + "/_app/immutable/nodes/3.3ba0fbc8.js",
-  a + "/_app/immutable/nodes/4.7f24b304.js",
+  a + "/_app/immutable/nodes/2.d1be066b.js",
+  a + "/_app/immutable/nodes/3.62273b55.js",
+  a + "/_app/immutable/nodes/4.5a410aeb.js",
   a + "/_app/immutable/assets/5.8b541c7d.css",
-  a + "/_app/immutable/nodes/5.0ed9f32a.js",
-  a + "/_app/immutable/nodes/6.9aaf31d6.js",
+  a + "/_app/immutable/nodes/5.52fc3487.js",
+  a + "/_app/immutable/nodes/6.da86e751.js",
   a + "/_app/immutable/assets/404.3df25504.avif",
-  a + "/_app/immutable/chunks/i18n-svelte.4636072d.js",
+  a + "/_app/immutable/chunks/i18n-svelte.85c3aeba.js",
   a + "/_app/immutable/assets/avatar.9d2117a3.png",
   a + "/_app/immutable/assets/avatar.f6a08045.avif",
   a + "/_app/immutable/assets/avatar.ec2b368f.webp",
@@ -21,7 +21,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/avatar.fa6b069e.jpeg",
   a + "/_app/immutable/assets/avatar.df189fa7.jpeg",
   a + "/_app/immutable/assets/qwer.77ae3ceb.webp",
-  a + "/_app/immutable/chunks/image_banner.cfe45e39.js",
+  a + "/_app/immutable/chunks/image_banner.7ed1ebc5.js",
   a + "/_app/immutable/assets/404.936a22c6.avif",
   a + "/_app/immutable/assets/avatar.d57963db.avif",
   a + "/_app/immutable/assets/avatar.79e8785a.avif",
@@ -69,9 +69,9 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/cover.e72ac826.avif",
   a + "/_app/immutable/assets/cover.a0d01876.avif",
   a + "/_app/immutable/assets/cover.5ec52c41.jpg",
-  a + "/_app/immutable/chunks/image_zoom.7ada4de7.js",
+  a + "/_app/immutable/chunks/image_zoom.291ed586.js",
   a + "/_app/immutable/chunks/index.f3b46ba6.js",
-  a + "/_app/immutable/chunks/post.a35e4831.js",
+  a + "/_app/immutable/chunks/post.2dd68bf6.js",
   a + "/_app/immutable/assets/post.20994fb9.css",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.0cdd387c.woff2",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.30da91e8.woff",
@@ -133,17 +133,18 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.e14fed02.woff",
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.f01f3e87.ttf",
   a + "/_app/immutable/chunks/scheduler.e99bcb8c.js",
-  a + "/_app/immutable/chunks/singletons.104eafad.js",
-  a + "/_app/immutable/chunks/timeFormat.1a5b08fc.js",
-  a + "/_app/immutable/chunks/tippy.f460e6fd.js",
+  a + "/_app/immutable/chunks/singletons.1173828e.js",
+  a + "/_app/immutable/chunks/timeFormat.eba21eea.js",
+  a + "/_app/immutable/chunks/tippy.7499fdf0.js",
   a + "/_app/immutable/assets/tippy.7df0e90e.css",
-  a + "/_app/immutable/chunks/youtube.8aab0baf.js",
-  a + "/_app/immutable/entry/start.4285e8d2.js"
-], o = [
+  a + "/_app/immutable/chunks/youtube.435f1c28.js",
+  a + "/_app/immutable/entry/start.8625677c.js"
+], u = [
   a + "/favicon.ico",
   a + "/favicon.png",
   a + "/robots.txt",
   a + "/storia-di-informatica/powerpoint.pptx",
+  a + "/violenza-di-genere/million-dollar-baby.pdf",
   a + "/~partytown/debug/partytown-atomics.js",
   a + "/~partytown/debug/partytown-media.js",
   a + "/~partytown/debug/partytown-sandbox-sw.js",
@@ -166,7 +167,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/storia-di-informatica",
   a + "/versions.json",
   a + "/violenza-di-genere"
-], l = "1704968721302", p = self, f = `cache${l}`, b = u.concat(o).concat(_), r = new Set(b);
+], l = "1705395339635", p = self, f = `cache${l}`, b = o.concat(u).concat(_), r = new Set(b);
 p.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(f).then((s) => s.addAll(b)).then(() => {
