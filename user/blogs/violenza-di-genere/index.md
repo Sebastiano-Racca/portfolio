@@ -2,9 +2,11 @@
 title: Violenza di Genere e Femminicidi
 summary: Lezione sulla violenza di genere e i femminicidi
 published: '2022-11-29T10:45:49.000+01:00'
-updated: '2023-11-11T13:10:02.000+01:00'
+updated: '2023-11-23T13:10:02.000+01:00'
 language: italiano
 cover: ./cover.jpg
+tags:
+  - [ inglese ]
 ---
 
 
@@ -41,3 +43,9 @@ Il linguaggio e la legge sono espressioni simboliche di potere che rafforzano le
 Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono alla loro subordinazione e mancanza di azione.
 
 <Youtube id="RwiiIerA_ps" />
+
+## Million Dollar Baby
+A short essay about the film "Million Dollar Baby".
+<object data="/violenza-di-genere/million-dollar-baby.pdf" type="application/pdf" width="100%" height="500px">
+  <p>Impossibile mostrare il PDF. <a href="/violenza-di-genere/million-dollar-baby.pdf">Scarica</a>.</p>
+</object>
