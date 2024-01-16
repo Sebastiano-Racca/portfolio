@@ -5,7 +5,8 @@ published: '2023-10-24T20:00:00.000+01:00'
 updated: '2023-10-24T20:00:00.000+01:00'
 cover: ./cover.jpg
 coverStyle: 'IN'
-language: Italiano
+tags:
+    - [ Italiano ]
 ---
 
 ## Spettacolo "Le Finestre"

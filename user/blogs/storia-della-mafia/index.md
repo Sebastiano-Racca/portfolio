@@ -3,8 +3,9 @@ title: La Storia della Mafia e le Stragi
 summary: Lezioni sulla storia della mafia e le stragi, incontri con le Agende Rosse
 published: '2022-03-06T15:58:38.000+01:00'
 updated: '2022-11-29T10:45:49.000+01:00'
-language: italiano
 cover: ./cover.jpg
+tags:
+  - [ Italiano ]
 ---
 
 <script lang="ts">

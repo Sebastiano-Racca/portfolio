@@ -3,8 +3,9 @@ title: La Storia dell'Informatica
 summary: Esposizione sulla storia dell'informatica
 published: '2022-10-19T11:07:56.000+01:00'
 updated: '2022-10-19T11:07:56.000+01:00'
-language: tpsi
 cover: ./cover.jpg
+tags:
+  - [ TPSI ]
 ---
 
 <script lang="ts">

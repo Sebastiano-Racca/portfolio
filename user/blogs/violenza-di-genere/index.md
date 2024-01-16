@@ -3,10 +3,9 @@ title: Violenza di Genere e Femminicidi
 summary: Lezione sulla violenza di genere e i femminicidi
 published: '2022-11-29T10:45:49.000+01:00'
 updated: '2023-11-23T13:10:02.000+01:00'
-language: italiano
 cover: ./cover.jpg
 tags:
-  - [ inglese ]
+  - [ Italiano, Inglese ]
 ---
 
 

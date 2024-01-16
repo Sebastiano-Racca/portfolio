@@ -148,11 +148,17 @@ const _processMD = (file, generateMeta) => {
     _postData['tags'].push(series);
   }
 
-  const year = { [UserConfig.YearTagName]: new Date(_postData['published']).getFullYear().toString() };
-  _postData['tags'].push(year);
+  const publishedYear = new Date(_postData['published']).getFullYear();
+  const updatedYear = new Date(_postData['updated']).getFullYear();
 
-  const language = { [UserConfig.PostLanguageTagName]: _postData['language'] };
-  _postData['tags'].push(language);
+  const yearRange = Array.from({ length: updatedYear - publishedYear + 1 }, (_, index) => publishedYear + index);
+
+  const yearTags = yearRange.map((year) => ({ [UserConfig.YearTagName]: year.toString() }));
+
+  _postData['tags'].push(...yearTags);
+
+  // const language = { [UserConfig.PostLanguageTagName]: _postData['language'] };
+  // _postData['tags'].push(language);
 
   posts.set(_postData['slug'], _postData);
   tags.set(_postData['tags']);
