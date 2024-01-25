@@ -1,19 +1,20 @@
-const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), c = [
-  a + "/_app/immutable/entry/app.601a2546.js",
+const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u = [
+  a + "/_app/immutable/entry/app.5d5a43a5.js",
   a + "/_app/immutable/assets/0.de8957e6.css",
-  a + "/_app/immutable/nodes/0.ae169a27.js",
-  a + "/_app/immutable/nodes/1.529846db.js",
+  a + "/_app/immutable/nodes/0.61a6bfae.js",
+  a + "/_app/immutable/nodes/1.46cd256e.js",
   a + "/_app/immutable/assets/404.9de340c4.webp",
   a + "/_app/immutable/assets/2.9c2a354b.css",
-  a + "/_app/immutable/nodes/2.4995f17d.js",
-  a + "/_app/immutable/nodes/3.c0cafa37.js",
-  a + "/_app/immutable/nodes/4.47b56b48.js",
-  a + "/_app/immutable/nodes/5.d9d1af70.js",
-  a + "/_app/immutable/nodes/6.13a9942e.js",
-  a + "/_app/immutable/nodes/7.9d4a9238.js",
-  a + "/_app/immutable/nodes/8.6ff1e4aa.js",
-  a + "/_app/immutable/assets/404.3df25504.avif",
-  a + "/_app/immutable/chunks/i18n-svelte.54b450a2.js",
+  a + "/_app/immutable/nodes/2.c338ec7d.js",
+  a + "/_app/immutable/nodes/3.e1528bb0.js",
+  a + "/_app/immutable/nodes/4.1e0220b1.js",
+  a + "/_app/immutable/nodes/5.6bf7fd29.js",
+  a + "/_app/immutable/nodes/6.addc0065.js",
+  a + "/_app/immutable/nodes/7.d76eaf12.js",
+  a + "/_app/immutable/nodes/8.57c961d9.js",
+  a + "/_app/immutable/nodes/9.a229bec4.js",
+  a + "/_app/immutable/assets/404.936a22c6.avif",
+  a + "/_app/immutable/chunks/i18n-svelte.91a95ae1.js",
   a + "/_app/immutable/assets/avatar.9d2117a3.png",
   a + "/_app/immutable/assets/avatar.f6a08045.avif",
   a + "/_app/immutable/assets/avatar.ec2b368f.webp",
@@ -22,8 +23,8 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), c
   a + "/_app/immutable/assets/avatar.fa6b069e.jpeg",
   a + "/_app/immutable/assets/avatar.df189fa7.jpeg",
   a + "/_app/immutable/assets/qwer.77ae3ceb.webp",
-  a + "/_app/immutable/chunks/image_banner.4c6dee15.js",
-  a + "/_app/immutable/assets/404.936a22c6.avif",
+  a + "/_app/immutable/chunks/image_banner.2fb53d97.js",
+  a + "/_app/immutable/assets/404.3df25504.avif",
   a + "/_app/immutable/assets/avatar.d57963db.avif",
   a + "/_app/immutable/assets/avatar.79e8785a.avif",
   a + "/_app/immutable/assets/default_og_card.a8bc64fd.avif",
@@ -50,6 +51,9 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), c
   a + "/_app/immutable/assets/qwer.9e99ba45.avif",
   a + "/_app/immutable/assets/qwer.b1a5b105.avif",
   a + "/_app/immutable/assets/github-mark.7a0dd11e.svg",
+  a + "/_app/immutable/assets/monkey.0e53f0e2.avif",
+  a + "/_app/immutable/assets/monkey.80345ac1.gif",
+  a + "/_app/immutable/assets/monkey.540767bb.avif",
   a + "/_app/immutable/assets/cover.e85b808c.avif",
   a + "/_app/immutable/assets/cover.7f46c7d8.avif",
   a + "/_app/immutable/assets/cover.a089909a.jpg",
@@ -79,9 +83,9 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), c
   a + "/_app/immutable/assets/cover.0fc62875.avif",
   a + "/_app/immutable/assets/cover.7730e669.jpg",
   a + "/_app/immutable/assets/cover.3bb55a3b.avif",
-  a + "/_app/immutable/chunks/image_zoom.310b883a.js",
+  a + "/_app/immutable/chunks/image_zoom.1d8e2a45.js",
   a + "/_app/immutable/chunks/index.f3b46ba6.js",
-  a + "/_app/immutable/chunks/post.5457ad15.js",
+  a + "/_app/immutable/chunks/post.93764706.js",
   a + "/_app/immutable/assets/post.20994fb9.css",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.0cdd387c.woff2",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.30da91e8.woff",
@@ -145,13 +149,13 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), c
   a + "/_app/immutable/chunks/powerpoint.55759a57.js",
   a + "/_app/immutable/assets/powerpoint.8b541c7d.css",
   a + "/_app/immutable/chunks/scheduler.e99bcb8c.js",
-  a + "/_app/immutable/chunks/singletons.31f72fd7.js",
-  a + "/_app/immutable/chunks/timeFormat.9a6b98ec.js",
-  a + "/_app/immutable/chunks/tippy.17de2b30.js",
+  a + "/_app/immutable/chunks/singletons.68dfbca2.js",
+  a + "/_app/immutable/chunks/timeFormat.639000e7.js",
+  a + "/_app/immutable/chunks/tippy.61b036d3.js",
   a + "/_app/immutable/assets/tippy.7df0e90e.css",
-  a + "/_app/immutable/chunks/youtube.03d154ff.js",
-  a + "/_app/immutable/entry/start.c68fe8c2.js"
-], u = [
+  a + "/_app/immutable/chunks/youtube.001609b5.js",
+  a + "/_app/immutable/entry/start.c1844aa9.js"
+], c = [
   a + "/favicon.ico",
   a + "/favicon.png",
   a + "/robots.txt",
@@ -169,6 +173,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), c
   a + "/~partytown/partytown.js"
 ], _ = [
   a + "/",
+  a + "/about",
   a + "/atom.xml",
   a + "/carcere-territorio",
   a + "/feed.json",
@@ -180,10 +185,10 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), c
   a + "/versions.json",
   a + "/violenza-di-genere",
   a + "/web-technologies"
-], l = "1705664607225", p = self, f = `cache${l}`, b = c.concat(u).concat(_), r = new Set(b);
+], l = "1706176265155", p = self, b = `cache${l}`, f = u.concat(c).concat(_), r = new Set(f);
 p.addEventListener("install", (e) => {
   e.waitUntil(
-    caches.open(f).then((s) => s.addAll(b)).then(() => {
+    caches.open(b).then((s) => s.addAll(f)).then(() => {
       p.skipWaiting();
     })
   );
@@ -192,7 +197,7 @@ p.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys().then(async (s) => {
       for (const t of s)
-        t !== f && await caches.delete(t);
+        t !== b && await caches.delete(t);
       p.clients.claim();
     })
   );

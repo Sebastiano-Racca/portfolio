@@ -8,16 +8,76 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-19T11:44:26.278Z</updated>
+<updated>2024-01-25T09:52:05.501Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
-<category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
-<category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
-<category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
 <category term="Anno-2022" scheme="https://portfolio.racca.me/?tags=tags-Anno=2022" />
 <category term="Anno-2023" scheme="https://portfolio.racca.me/?tags=tags-Anno=2023" />
 <category term="Anno-2024" scheme="https://portfolio.racca.me/?tags=tags-Anno=2024" />
+<category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
+<category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
+<category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
+<entry>
+    <title type="html"><![CDATA[About Me]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/about" />
+    <id>https://portfolio.racca.me/about</id>
+    <published>2024-01-25T07:40:00.000Z</published>
+    <updated>2024-01-25T07:40:00.000Z</updated>
+    <summary type="html"><![CDATA[undefined]]></summary>
+    <content type="html"><![CDATA[<p><ImgZoom src="/about/monkey.gif" alt="Monkey"></ImgZoom></p>
+<h2 id="ciao-sono-sebastiano"><a href="#ciao-sono-sebastiano">Ciao, sono Sebastiano</a></h2>
+<ul>
+<li>👨‍💻 Sviluppatore full-time di 18 anni;</li>
+<li>⚜️ Scout Entusiasta;</li>
+<li>⚖️ Sostenitore della Parità di Diritti e Opportunità.</li>
+</ul>
+<hr>
+<br>
+
+<div align="center">
+<br>
+<br>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote">
+</div>
+<br/>
+
+<hr/>
+
+<h2 id="tech-stack"><a href="#tech-stack">Tech Stack</a></h2>
+<div style="display: flex; gap: 1em; flex-wrap: wrap;">
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white" alt="PHP">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/mysql-%252307405e.svg?style=flat&logo=sqlite&logoColor=white" alt="MySQL">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white" alt="MariaDB">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/Git-fc6d26?style=flat&logo=git&logoColor=white" alt="Git">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux">
+  </a>
+  <a href="https://github.com/SebaOfficial" title="Profilo di Github" style="min-width: 50px">
+    <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white" alt="Shell Script">
+  </a>
+</div>
+]]></content>
+    <category term="Anno-2024" scheme="https://portfolio.racca.me/?Anno=2024" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[Progetto Carcere Territorio]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
