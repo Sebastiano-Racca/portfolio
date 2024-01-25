@@ -91,9 +91,19 @@ export const giscusConfig: Giscus.Config = {
   'data-strict': '0',
 };
 
-export const navConfig: (DD.Nav | DD.Link)[] = [];
+export const navConfig: (DD.Nav | DD.Link)[] = [
+  {
+    name: 'About',
+    url: '/about',
+  },
+];
 
 export const mobilenavConfig: DD.Nav = {
   orientation: 2,
-  links: [],
+  links: [
+    {
+      name: 'About',
+      url: '/about',
+    },
+  ],
 };
