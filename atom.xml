@@ -8,7 +8,7 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-30T08:20:19.209Z</updated>
+<updated>2024-02-01T14:20:18.644Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -26,7 +26,7 @@
     <published>2024-01-25T07:40:00.000Z</published>
     <updated>2024-01-25T07:40:00.000Z</updated>
     <summary type="html"><![CDATA[undefined]]></summary>
-    <content type="html"><![CDATA[<p><ImgZoom src="/about/monkey.gif" alt="Monkey"></ImgZoom></p>
+    <content type="html"><![CDATA[<p><Video mp4="/about/monkey.mp4" id="Monkey" /></p>
 <h2 id="ciao-sono-sebastiano"><a href="#ciao-sono-sebastiano">Ciao, sono Sebastiano</a></h2>
 <ul>
 <li>👨‍💻 Sviluppatore full-time di 18 anni;</li>
