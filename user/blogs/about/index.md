@@ -6,7 +6,7 @@ options:
   - unlisted
 ---
 
-![Monkey](./monkey.gif)
+![Monkey](./monkey.mp4)
 
 ## Ciao, sono Sebastiano
 * 👨‍💻 Sviluppatore full-time di 18 anni;
