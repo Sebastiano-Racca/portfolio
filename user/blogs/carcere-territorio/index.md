@@ -17,6 +17,14 @@ Seppure i carcerati non abbiano speranza di trovare una vita migliore al di fuor
 
 ![Lo Spettacolo](./lo-spettacolo.jpg)
 
+> Un grande problema del carcere è l'assenza di speranza.
+> Riguardo alla permanenza dentro, nonostante la certezza della pena, almeno un filo di speranza esiste, la possibilità di ottenere qualche beneficio, un permesso premio, l'articolo 21, i domiciliari, l'attesa della conclusione.
+> Ma, spesso, la disperazione riguardo il fuori, una volta usciti, se si diventa più che altro "ex detenuti" e non si riesce più nemmeno a immaginarla un'esistenza diversa.
+> È avere il nulla come prospettiva dopo l'uscita, che in carcere può generare disperazione.
+> Eppure la speranza, seppure nascosta, è una virtù vivente.
+> Qualcuno forse ce la fa ad offrirla a sé stesso, ma lo spettacolo ci chiede con umiltà che diventi oggetto di scambio.
+> Come aprire una finestra, un incontro attraverso un davanzate tra due realtà che vedendosi, guardandosi, si scoprono niente altro che parti di una stessa umanità, è allora che scorgono delinearsi, una grazie all'altra, un varco nel buio.
+> Perchè il buio esiste per entrambe, non c'è dubbio, anche se apparentemente in misura diversa.
 
 ### Incontro con Elisabetta Baro
 Elisabetta Baro fa parte della compagnia teatrale che lavora all'interno del carcere Lorusso e Cotugno.
