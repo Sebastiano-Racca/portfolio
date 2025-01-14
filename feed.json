@@ -16,6 +16,20 @@
   "language": "it",
   "items": [
     {
+      "id": "1522",
+      "url": "https://portfolio.racca.me/1522",
+      "title": "Progetto 1522",
+      "summary": "Progetto per la sensibilizzazione sulla violenza di genere",
+      "image": "/1522/cover.jpg",
+      "date_published": "2025-01-21T08:40:00.000+01:00",
+      "date_modified": "2025-01-21T08:40:00.000+01:00",
+      "tags": [
+        "TPSI",
+        "Informatica",
+        "Anno-2025"
+      ]
+    },
+    {
       "id": "carcere-territorio",
       "url": "https://portfolio.racca.me/carcere-territorio",
       "title": "Progetto Carcere Territorio",

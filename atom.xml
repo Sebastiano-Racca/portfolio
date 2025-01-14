@@ -8,16 +8,31 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2025-01-14T11:22:21.444Z</updated>
+<updated>2025-01-14T11:30:39.612Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
+<category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
+<category term="Informatica" scheme="https://portfolio.racca.me/?tags=Informatica" />
+<category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
+<category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
 <category term="Anno-2022" scheme="https://portfolio.racca.me/?tags=tags-Anno=2022" />
 <category term="Anno-2023" scheme="https://portfolio.racca.me/?tags=tags-Anno=2023" />
 <category term="Anno-2024" scheme="https://portfolio.racca.me/?tags=tags-Anno=2024" />
-<category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
-<category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
-<category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
+<category term="Anno-2025" scheme="https://portfolio.racca.me/?tags=tags-Anno=2025" />
+<entry>
+    <title type="html"><![CDATA[Progetto 1522]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/1522" />
+    <id>https://portfolio.racca.me/1522</id>
+    <published>2025-01-21T07:40:00.000Z</published>
+    <updated>2025-01-21T07:40:00.000Z</updated>
+    <summary type="html"><![CDATA[Progetto per la sensibilizzazione sulla violenza di genere]]></summary>
+    <content type="html"><![CDATA[]]></content>
+    <category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
+<category term="Informatica" scheme="https://portfolio.racca.me/?tags=Informatica" />
+<category term="Anno-2025" scheme="https://portfolio.racca.me/?Anno=2025" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[About Me]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
