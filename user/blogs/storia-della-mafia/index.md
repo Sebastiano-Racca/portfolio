@@ -2,7 +2,7 @@
 title: La Storia della Mafia e le Stragi
 summary: Lezioni sulla storia della mafia e le stragi, incontri con le Agende Rosse
 published: '2022-03-06T15:58:38.000+01:00'
-updated: '2022-11-29T10:45:49.000+01:00'
+updated: '2025-05-10T10:45:49.000+01:00'
 cover: ./cover.jpg
 tags:
   - [ Italiano ]
@@ -44,3 +44,8 @@ Il video sottostante parla di uno degli omicidi mafiosi più brutali della stori
 Il video sottostante parla della vita di Giuseppe Impastato, detto Peppino, che ha combattuto contro la mafia in Sicilia negli anni '70.
 
 <Youtube id="ag1_vfwzgFA" />
+
+## Il mio silenzio è una stella
+Dopo la lettura del libro "Il mio silenzio è una stella", abbiamo avuto l'opportunità di incotrare l'autrice Sabrina Pisu.
+
+<Youtube id="xCkwu6R7fdg" />

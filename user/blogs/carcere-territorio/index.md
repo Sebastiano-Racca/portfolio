@@ -2,12 +2,17 @@
 title: Progetto Carcere Territorio
 summary: Progetto Carcere Territorio
 published: '2023-10-24T20:00:00.000+01:00'
-updated: '2024-01-25T12:00:00.000+01:00'
+updated: '2024-12-18T12:00:00.000+01:00'
 cover: ./cover.jpg
 coverStyle: 'IN'
 tags:
     - [ Italiano ]
 ---
+
+<script lang="ts">
+  import Iframe from '$custom/iframe.svelte';
+  import Youtube from '$lib/components/youtube.svelte';
+</script>
 
 ## Spettacolo "Le Finestre"
 Il 24 Ottobre 2023 ho avuto il piacere di partecipare come spettatore allo spettacolo "Finestre" all'interno dell carcere Lorusso e Cotugno.
@@ -35,3 +40,12 @@ Il teatro è strumento di trasformazione per il detenuto.
 
 Nel carcere, i *concellini*, devono condividere tutto, anche l'intimità.
 I detenuti cucinano nella propria cella, nel bagno.
+
+### Relazione sulla situazione manicomiale in Italia
+
+<Iframe src="https://docs.google.com/document/d/e/2PACX-1vSnVViugVNKEzU6q8cFHtn6nmiz2guW8QFrGE23FH42m1B37Nrz0O0OXiJLf5IMUpezUoBjLWyVnjuZ/pub?embedded=true" title="Relazione situazione manicomiale"/>
+
+### Senza Sbarre
+Dopo la lettura del libro "Senza Sbarre", abbiamo avuto l'opportunità di incotrare l'autrice Cosima Buccoliero.
+
+<Youtube id="FuyUlwkK97M" />
