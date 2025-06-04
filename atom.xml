@@ -8,7 +8,7 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2025-01-14T11:30:39.612Z</updated>
+<updated>2025-06-04T15:04:02.806Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -16,10 +16,26 @@
 <category term="Informatica" scheme="https://portfolio.racca.me/?tags=Informatica" />
 <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
 <category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
-<category term="Anno-2022" scheme="https://portfolio.racca.me/?tags=tags-Anno=2022" />
-<category term="Anno-2023" scheme="https://portfolio.racca.me/?tags=tags-Anno=2023" />
-<category term="Anno-2024" scheme="https://portfolio.racca.me/?tags=tags-Anno=2024" />
-<category term="Anno-2025" scheme="https://portfolio.racca.me/?tags=tags-Anno=2025" />
+<category term="Year-2022" scheme="https://portfolio.racca.me/?tags=tags-Year=2022" />
+<category term="Year-2023" scheme="https://portfolio.racca.me/?tags=tags-Year=2023" />
+<category term="Year-2024" scheme="https://portfolio.racca.me/?tags=tags-Year=2024" />
+<category term="Year-2025" scheme="https://portfolio.racca.me/?tags=tags-Year=2025" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?tags=tags-Language=English" />
+<entry>
+    <title type="html"><![CDATA[War Poetry]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/war-poetry" />
+    <id>https://portfolio.racca.me/war-poetry</id>
+    <published>2025-05-28T11:00:00.000Z</published>
+    <updated>2025-05-28T11:00:00.000Z</updated>
+    <summary type="html"><![CDATA[Essay about poetry in war]]></summary>
+    <content type="html"><![CDATA[<h2 id="essay-about-the-poetry-in-war"><a href="#essay-about-the-poetry-in-war">Essay about the poetry in war</a></h2>
+<Iframe src="https://docs.google.com/document/d/e/2PACX-1vR_5PNYA6Wg85fHidT8dvl1_hEmn9qfZuWHmw6ScbeTV6ZFFZaH4bIro_XdHVmFh9UOJ6vg3wsO4Yer/pub?embedded=true" title="War Poetry"/>
+]]></content>
+    <category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
+<category term="Year-2025" scheme="https://portfolio.racca.me/?Year=2025" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[Progetto 1522]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
@@ -31,7 +47,8 @@
     <content type="html"><![CDATA[]]></content>
     <category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
 <category term="Informatica" scheme="https://portfolio.racca.me/?tags=Informatica" />
-<category term="Anno-2025" scheme="https://portfolio.racca.me/?Anno=2025" />
+<category term="Year-2025" scheme="https://portfolio.racca.me/?Year=2025" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[About Me]]></title>
@@ -91,7 +108,8 @@
   </a>
 </div>
 ]]></content>
-    <category term="Anno-2024" scheme="https://portfolio.racca.me/?Anno=2024" />
+    <category term="Year-2024" scheme="https://portfolio.racca.me/?Year=2024" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Progetto Carcere Territorio]]></title>
@@ -127,8 +145,8 @@ Il teatro è strumento di trasformazione per il detenuto.</p>
 I detenuti cucinano nella propria cella, nel bagno.</p>
 ]]></content>
     <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
-<category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
-<category term="Anno-2024" scheme="https://portfolio.racca.me/?Anno=2024" />
+<category term="Year-2023" scheme="https://portfolio.racca.me/?Year=2023" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Web Technologies]]></title>
@@ -138,11 +156,11 @@ I detenuti cucinano nella propria cella, nel bagno.</p>
     <published>2023-05-11T11:24:00.000Z</published>
     <updated>2023-05-11T11:24:00.000Z</updated>
     <summary type="html"><![CDATA[Presentation about web Technologies]]></summary>
-    <content type="html"><![CDATA[<Powerpoint src="https://docs.google.com/presentation/d/e/2PACX-1vSCFPpYzs1w0zFN2E3zE1RGxjZ_SxDiM4R8mQl3X3TjcUL_xiLm8voVElY6MtrT2i5UHxNaIpqKvLMP/embed?start=false&loop=false&delayms=5000" title="Web Technologies"/>
-
+    <content type="html"><![CDATA[<Iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSCFPpYzs1w0zFN2E3zE1RGxjZ_SxDiM4R8mQl3X3TjcUL_xiLm8voVElY6MtrT2i5UHxNaIpqKvLMP/embed?start=false&loop=false&delayms=5000" title="Web Technologies"/>
 ]]></content>
     <category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
-<category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
+<category term="Year-2023" scheme="https://portfolio.racca.me/?Year=2023" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Pena di Morte]]></title>
@@ -160,9 +178,8 @@ Il protagonista spera di ricevere la grazia fino all&#39;ultimo secondo.</p>
 <Youtube id="EeGa-YNNemk" />
 ]]></content>
     <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
-<category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
-<category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
-<category term="Anno-2024" scheme="https://portfolio.racca.me/?Anno=2024" />
+<category term="Year-2022" scheme="https://portfolio.racca.me/?Year=2022" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Violenza di Genere e Femminicidi]]></title>
@@ -207,8 +224,8 @@ Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono a
 ]]></content>
     <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
 <category term="Inglese" scheme="https://portfolio.racca.me/?tags=Inglese" />
-<category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
-<category term="Anno-2023" scheme="https://portfolio.racca.me/?Anno=2023" />
+<category term="Year-2022" scheme="https://portfolio.racca.me/?Year=2022" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[La Storia dell'Informatica]]></title>
@@ -218,10 +235,11 @@ Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono a
     <published>2022-10-19T10:07:56.000Z</published>
     <updated>2022-10-19T10:07:56.000Z</updated>
     <summary type="html"><![CDATA[Esposizione sulla storia dell'informatica]]></summary>
-    <content type="html"><![CDATA[<Powerpoint src="https://docs.google.com/presentation/d/e/2PACX-1vQehNNM-H0KZqb-Mda_9iiH-w_S20ELqA67k9Kpv-IazmcEc_Cgw6qDx1iXogDVk504Szx7YKFolHnC/embed?start=false&loop=false&delayms=5000" title="storia dell'informatica"/>
+    <content type="html"><![CDATA[<Iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQehNNM-H0KZqb-Mda_9iiH-w_S20ELqA67k9Kpv-IazmcEc_Cgw6qDx1iXogDVk504Szx7YKFolHnC/embed?start=false&loop=false&delayms=5000" title="storia dell'informatica"/>
 ]]></content>
     <category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
-<category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
+<category term="Year-2022" scheme="https://portfolio.racca.me/?Year=2022" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[La Storia della Mafia e le Stragi]]></title>
@@ -256,6 +274,7 @@ Il video parla proprio degli attentati che uccisero i due magistrati, mettendo i
 <Youtube id="ag1_vfwzgFA" />
 ]]></content>
     <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
-<category term="Anno-2022" scheme="https://portfolio.racca.me/?Anno=2022" />
+<category term="Year-2022" scheme="https://portfolio.racca.me/?Year=2022" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 </feed>
