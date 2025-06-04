@@ -4,6 +4,7 @@ import adapterVercel from '@sveltejs/adapter-vercel';
 import adapterNetlify from '@sveltejs/adapter-netlify';
 import adapterCloudflare from '@sveltejs/adapter-cloudflare';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import fs from 'fs';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -24,19 +25,19 @@ const config = {
     },
     prerender: {
       entries: [
-        '/en',
-        '/ja',
-        '/zh',
-        '/zh-Hans',
-        '/zh-Hant',
-        '/example',
-        '/hello-QWER',
-        '/quick-start',
+        ...getBlogs(),
         '/versions.json',
       ],
     },
   },
 };
+
+/** @returns {any} */
+function getBlogs() {
+  return fs.readdirSync("user/blogs", { withFileTypes: true })
+    .filter(item => item.isDirectory())
+    .map(dir => `/${dir.name}`);
+}
 
 function getAdapter() {
   if (Object.keys(process.env).some((key) => key.includes('VERCEL'))) {
@@ -49,10 +50,10 @@ function getAdapter() {
     return process.env.ADAPTER === 'node'
       ? adapterNode({ out: 'build' })
       : adapterStatic({
-          pages: 'build',
-          assets: 'build',
-          fallback: undefined,
-        });
+        pages: 'build',
+        assets: 'build',
+        fallback: undefined,
+      });
   }
 }
 
