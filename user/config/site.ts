@@ -91,19 +91,31 @@ export const giscusConfig: Giscus.Config = {
   'data-strict': '0',
 };
 
-export const navConfig: (DD.Nav | DD.Link)[] = [
-  {
-    name: 'About',
-    url: '/about',
-  },
-];
+type NavConfigType = {
+  [key: string]: (DD.Nav | DD.Link)[];
+};
 
-export const mobilenavConfig: DD.Nav = {
-  orientation: 2,
-  links: [
+export const navConfig: NavConfigType = {
+  en: [
     {
       name: 'About',
       url: '/about',
     },
   ],
+};
+
+type MobileNavConfigType = {
+  [key: string]: DD.Nav;
+};
+
+export const mobilenavConfig: MobileNavConfigType = {
+  it: {
+    orientation: 2,
+    links: [
+      {
+        name: 'About',
+        url: '/about',
+      },
+    ],
+  },
 };

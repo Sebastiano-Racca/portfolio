@@ -6,6 +6,7 @@
   import { tagsCur } from '$stores/tags';
   import { postsShow } from '$stores/posts';
   import { browser } from '$app/environment';
+  import { replaceState } from '$app/navigation';
   import { page } from '$app/stores';
   import type { Tags } from '$lib/types/tags';
 
@@ -37,52 +38,84 @@
         output.append(k === 'tags' ? k : `tags-${encodeURI(k)}`, Array.from(v).join(','));
       });
       const params = output.toString();
-      if (params) window.history.replaceState({}, '', `?${params}`);
-      else window.history.replaceState({}, '', '/');
+      if (params) {
+        replaceState('', `?${params}`);
+      } else {
+        replaceState('', '/');
+      }
     }
   }
 </script>
 
 {#if data}
-  <a href={data.slug}>
-    <article
-      itemscope
-      itemtype="https://schema.org/BlogPosting"
-      itemprop="blogPost"
-      in:fly|global={{ x: index % 2 ? 100 : -100, duration: 300, delay: 300 }}
-      out:fly|global={{ x: index % 2 ? -100 : 100, duration: 300 }}
-      class="index-post flex flex-col relative w-full overflow-hidden group shadow-xl hover:(shadow-2xl) transform transition duration-500 md:(w-3xl rounded-lg hover:(scale-105))">
-      {#if data.series_tag && data.series_title}
-        <div class="series flex items-stretch gap-0 z10">
+  <article
+    itemscope
+    itemtype="https://schema.org/BlogPosting"
+    itemprop="blogPost"
+    in:fly|global={{ x: index % 2 ? 100 : -100, duration: 300, delay: 300 }}
+    out:fly|global={{ x: index % 2 ? -100 : 100, duration: 300 }}
+    class="index-post flex flex-col relative w-full overflow-hidden group shadow-xl hover:(shadow-2xl) transform transition duration-300 md:(w-3xl rounded-lg hover:(scale-105))">
+    {#if data.series_tag && data.series_title}
+      <div class="series flex items-stretch gap-0 z10">
+        <div
+          role="button"
+          tabindex="0"
+          class="series-tag py2 cursor-pointer"
+          on:click={() => handleClick({ name: data.series_tag ?? '', category: UserConfig.SeriesTagName })}
+          on:keydown={(e) => {
+            if (e.key === 'Enter') {
+              handleClick({ name: data.series_tag ?? '', category: UserConfig.SeriesTagName });
+            }
+          }}>
+          <div class="pl-4 pr-3 text-sm font-bold"># {data.series_tag} {UserConfig.SeriesTagName}</div>
+        </div>
+        <div class="series-title flex-1 py-2 md:rounded-tr-2xl">
           <div
-            role="button"
-            tabindex="0"
-            class="series-tag py2 cursor-pointer"
-            on:click={() => handleClick({ name: data.series_tag ?? '', category: UserConfig.SeriesTagName })}
-            on:keydown={(e) => {
-              if (e.key === 'Enter') {
-                handleClick({ name: data.series_tag ?? '', category: UserConfig.SeriesTagName });
-              }
-            }}>
-            <div class="pl-4 pr-3 text-sm font-bold"># {data.series_tag} {UserConfig.SeriesTagName}</div>
-          </div>
-          <div class="series-title flex-1 py-2 md:rounded-tr-2xl">
-            <div
-              class="px-3 text-sm font-semibold tracking-wide align-middle whitespace-normal line-clamp-1 text-ellipsis">
-              {data.series_title}
-            </div>
+            class="px-3 text-sm font-semibold tracking-wide align-middle whitespace-normal line-clamp-1 text-ellipsis">
+            {data.series_title}
           </div>
         </div>
-      {/if}
+      </div>
+    {/if}
 
-      {#if data.cover && data.coverStyle !== 'NONE'}
-        {#if data.coverStyle === 'IN'}
-          <ImgBanner
-            loading={index < numberPostsEager ? 'eager' : 'lazy'}
-            decoding={index < numberPostsEager ? 'auto' : 'async'}
-            src={data.cover}
-            imgClass="z1 blur-sm op80 absolute object-cover w-full h-full transition transform duration-1000 ease-in-out group-hover:(scale-110 blur-none)" />
-          <div class="coverStyle-IN z2 px8 pt4 pb6 flex flex-col gap2 bg-white/[0.25] dark:bg-black/[0.25]">
+    {#if data.cover && data.coverStyle !== 'NONE'}
+      {#if data.coverStyle === 'IN'}
+        <ImgBanner
+          loading={index < numberPostsEager ? 'eager' : 'lazy'}
+          decoding={index < numberPostsEager ? 'auto' : 'async'}
+          src={data.cover}
+          imgClass="z1 blur-sm op80 absolute object-cover w-full h-full transition transform duration-300 ease-in-out group-hover:(scale-110 blur-none)" />
+        <div class="coverStyle-IN z2 px8 pt4 pb6 flex flex-col gap2 bg-white/[0.25] dark:bg-black/[0.25]">
+          <time class="dt-published op80 group-hover:font-600" datetime={data.published} itemprop="datePublished">
+            {postPublishedStr}
+          </time>
+          <time class="hidden dt-updated" datetime={data.updated} itemprop="dateModified">
+            {postUpdatedStr}
+          </time>
+          <h2 class="text-2xl font-bold line-clamp-2 text-ellipsis group-hover:font-900" itemprop="name headline">
+            <a href={data.slug} class="u-url title-link-orange-500-orange-500" itemprop="url">
+              {data.title}
+            </a>
+          </h2>
+          <p class="text-lg line-clamp-2 group-hover:font-600" itemprop="description">{data.summary}</p>
+        </div>
+      {:else}
+        <div class:flex-col={['TOP', 'BOT'].indexOf(data.coverStyle) !== -1} class="flex md:border-none relative">
+          <div
+            class="overflow-hidden
+            {['TOP', 'BOT'].indexOf(data.coverStyle) !== -1 ? 'coverStyle-TOPnBOT' : ''}
+            {['RIGHT', 'LEFT'].indexOf(data.coverStyle) !== -1 ? 'coverStyle-RnL' : ''}"
+            class:order-first={data.coverStyle === 'TOP' || data.coverStyle === 'LEFT'}
+            class:order-last={data.coverStyle === 'BOT' || data.coverStyle === 'RIGHT'}>
+            <a href={data.slug} class="cursor-pointer" itemprop="url">
+              <ImgBanner
+                src={data.cover}
+                loading={index < numberPostsEager ? 'eager' : 'lazy'}
+                decoding={index < numberPostsEager ? 'auto' : 'async'}
+                imgClass="op90 group-hover:scale-110 transition transform duration-300 ease-in-out object-cover w-full h-full" />
+            </a>
+          </div>
+          <div class="index-post-panel px8 pt4 pb6 flex flex-col gap2 flex-1">
             <time class="dt-published op80 group-hover:font-600" datetime={data.published} itemprop="datePublished">
               {postPublishedStr}
             </time>
@@ -96,74 +129,41 @@
             </h2>
             <p class="text-lg line-clamp-2 group-hover:font-600" itemprop="description">{data.summary}</p>
           </div>
-        {:else}
-          <div class:flex-col={['TOP', 'BOT'].indexOf(data.coverStyle) !== -1} class="flex md:border-none relative">
-            <div
-              class="overflow-hidden
-              {['TOP', 'BOT'].indexOf(data.coverStyle) !== -1 ? 'coverStyle-TOPnBOT' : ''}
-              {['RIGHT', 'LEFT'].indexOf(data.coverStyle) !== -1 ? 'coverStyle-RnL' : ''}"
-              class:order-first={data.coverStyle === 'TOP' || data.coverStyle === 'LEFT'}
-              class:order-last={data.coverStyle === 'BOT' || data.coverStyle === 'RIGHT'}>
-              <a href={data.slug} class="cursor-pointer" itemprop="url">
-                <ImgBanner
-                  src={data.cover}
-                  loading={index < numberPostsEager ? 'eager' : 'lazy'}
-                  decoding={index < numberPostsEager ? 'auto' : 'async'}
-                  imgClass="op90 group-hover:scale-110 transition transform duration-300 ease-in-out object-cover w-full h-full" />
-              </a>
-            </div>
-            <div class="index-post-panel px8 pt4 pb6 flex flex-col gap2 flex-1">
-              <time class="dt-published op80 group-hover:font-600" datetime={data.published} itemprop="datePublished">
-                {postPublishedStr}
-              </time>
-              <time class="hidden dt-updated" datetime={data.updated} itemprop="dateModified">
-                {postUpdatedStr}
-              </time>
-              <h2 class="text-2xl font-bold line-clamp-2 text-ellipsis group-hover:font-900" itemprop="name headline">
-                <a href={data.slug} class="u-url title-link-orange-500-orange-500" itemprop="url">
-                  {data.title}
-                </a>
-              </h2>
-              <p class="text-lg line-clamp-2 group-hover:font-600" itemprop="description">{data.summary}</p>
-            </div>
-          </div>
-        {/if}
-      {:else}
-        <div class="index-post-panel flex flex-col flex-1 gap2 px8 pt4 pb6">
-          <time class="dt-published op80 group-hover:font-600" datetime={data.published} itemprop="datePublished">
-            {postPublishedStr}
-          </time>
-          <time class="hidden dt-updated" datetime={data.updated} itemprop="dateModified">
-            {postUpdatedStr}
-          </time>
-
-          <h2 class="text-2xl font-bold line-clamp-2 text-ellipsis group-hover:font-900" itemprop="name headline">
-            <a href={data.slug} class="u-url title-link-orange-500-orange-500" itemprop="url">
-              {#if data.title}
-                {data.title}
-              {:else}
-                No Title
-              {/if}
-            </a>
-          </h2>
-          {#if data.summary}
-            <p class="text-lg line-clamp-2 group-hover:font-600" itemprop="description">{data.summary}</p>
-          {/if}
         </div>
       {/if}
-    </article>
-  </a>
+    {:else}
+      <div class="index-post-panel flex flex-col flex-1 gap2 px8 pt4 pb6">
+        <time class="dt-published op80 group-hover:font-600" datetime={data.published} itemprop="datePublished">
+          {postPublishedStr}
+        </time>
+        <time class="hidden dt-updated" datetime={data.updated} itemprop="dateModified">
+          {postUpdatedStr}
+        </time>
+
+        <h2 class="text-2xl font-bold line-clamp-2 text-ellipsis group-hover:font-900" itemprop="name headline">
+          <a href={data.slug} class="u-url title-link-orange-500-orange-500" itemprop="url">
+            {#if data.title}
+              {data.title}
+            {:else}
+              No Title
+            {/if}
+          </a>
+        </h2>
+        {#if data.summary}
+          <p class="text-lg line-clamp-2 group-hover:font-600" itemprop="description">{data.summary}</p>
+        {/if}
+      </div>
+    {/if}
+  </article>
 {/if}
 
 <style lang="scss">
   .index-post {
-    border-radius: 0.5rem;
-    margin: auto;
-    max-width: 90%;
+    border-top: var(--qwer-border-mobile);
+    border-bottom: var(--qwer-border-mobile);
     color: var(--qwer-text-color);
     h2 a {
       color: var(--qwer-title-color);
-      font-size: clamp(5px, 8vw, 25px);
 
       &:hover {
         color: var(--qwer-title-hover-color);
@@ -171,21 +171,31 @@
     }
   }
 
-  @media (max-width: 768px) {
-    .index-post {
-      width: 90vw;
-    }
-  }
-
   .coverStyle-TOPnBOT {
-    height: var(--qwer-cover-height-TOPnBOT);
+    height: var(--qwer-cover-height-TOPnBOT-mobile);
   }
   .coverStyle-RnL {
-    width: var(--qwer-cover-width-RnL);
+    width: var(--qwer-cover-width-RnL-mobile);
   }
 
   .coverStyle-IN {
-    height: var(--qwer-cover-height-IN);
+    height: var(--qwer-cover-height-IN-mobile);
+  }
+
+  @media (min-width: 768px) {
+    .index-post {
+      border: var(--qwer-border-desktop);
+    }
+
+    .coverStyle-TOPnBOT {
+      height: var(--qwer-cover-height-TOPnBOT);
+    }
+    .coverStyle-RnL {
+      width: var(--qwer-cover-width-RnL);
+    }
+    .coverStyle-IN {
+      height: var(--qwer-cover-height-IN);
+    }
   }
 
   .index-post-panel {

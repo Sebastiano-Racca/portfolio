@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Post } from '$lib/types/post';
   import { browser } from '$app/environment';
+  import { replaceState } from '$app/navigation';
   import { siteConfig, navConfig, mobilenavConfig } from '$config/site';
   import { theme } from '$stores/themes';
   import { fly, fade } from 'svelte/transition';
@@ -10,16 +11,17 @@
   import { navigating, page } from '$app/stores';
   import { postsAll } from '$stores/posts';
   import AuthorAvatar from '$lib/components/image_avatar.svelte';
-  import { lastUpdatedStr } from '$lib/utli/timeFormat';
+  import { lastUpdatedStr } from '$lib/utils/timeFormat';
   import { afterUpdate, onMount } from 'svelte';
   import { query, result, searching } from '$lib/search/stores';
   import { LL } from '$i18n/i18n-svelte';
+  import LocaleSwitcher from './locale_switcher.svelte';
 
   function resetHome() {
     tagsCur.init();
     postsShow.init();
     if (browser) {
-      window.history.replaceState({}, '', '/');
+      replaceState('', '/');
     }
   }
 
@@ -73,7 +75,7 @@
     }
 
     const params = $page.url.searchParams.toString();
-    window.history.replaceState({}, '', params.length > 0 ? `?${params}` : '/');
+    replaceState('', params.length > 0 ? `?${params}` : '/');
 
     $searching = false;
   }
@@ -84,7 +86,7 @@
     $searching = false;
     $page.url.searchParams.delete('query');
     const params = $page.url.searchParams.toString();
-    window.history.replaceState({}, '', params.length > 0 ? `?${params}` : '/');
+    replaceState('', params.length > 0 ? `?${params}` : '/');
   }
 
   const debounce = () => {
@@ -172,7 +174,11 @@
           in:fly|global={{ x: -50, duration: 300, delay: 300 }}
           out:fly|global={{ x: -50, duration: 300 }}>
           <div class="lg:hidden rounded-lg btn btn-ghost !p0">
-            <Dropdown nav={mobilenavConfig} class="text-sm p2 ">
+            <Dropdown
+              nav={mobilenavConfig.hasOwnProperty(siteConfig.lang)
+                ? mobilenavConfig[siteConfig.lang]
+                : mobilenavConfig['en']}
+              class="text-sm p2 ">
               <button aria-label="nav menu" class="flex items-center">
                 <div class="i-mdi-hamburger-menu !w-[1.5rem] !h-[1.5rem]" />
               </button>
@@ -184,13 +190,13 @@
           </a>
 
           <div class="hidden lg:(flex)">
-            {#each navConfig as n}
+            {#each navConfig.hasOwnProperty(siteConfig.lang) ? navConfig[siteConfig.lang] : navConfig['en'] as n}
               <Dropdown class="text-lg px3 py2 btn btn-ghost " nav={n} />
             {/each}
           </div>
 
           <div class="ml-auto flex">
-            {#if $page.route?.id && $page.route.id === '/'}
+            {#if $page.route?.id && ['/', '/[lang=lang]'].includes($page.route.id)}
               {#key $page}
                 <button
                   id="search"
@@ -211,7 +217,7 @@
                 </button>
               {/key}
             {/if}
-            {#if $page.route?.id && $page.route.id === '/'}
+            {#if $page.route?.id && ['/', '/[lang=lang]'].includes($page.route.id)}
               <button
                 in:fade|global={{ duration: 300, delay: 300 }}
                 out:fade|global={{ duration: 300 }}
@@ -248,6 +254,7 @@
                   class="!w8 !h8 i-line-md-sunny-outline-loop dark:i-line-md-moon group-hover:(transition-transform duration-300 scale-120 ease-in-out)" />
               </button>
             {/key}
+            <LocaleSwitcher />
           </div>
         </div>
       {/if}

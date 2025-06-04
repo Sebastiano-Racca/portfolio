@@ -2,10 +2,10 @@ export const UserConfig = {
   DefaultDesktopShowTagFilter: false,
   DefaultCoverStyle: 'IN',
   DefaultTagName: 'tags',
-  DefaultPostwage: 'English',
-  PostLanguageTagName: 'Materia',
+  DefaultPostLanguage: 'English',
+  PostLanguageTagName: 'Language',
   SeriesTagName: 'Series',
-  YearTagName: 'Anno',
+  YearTagName: 'Year',
 
   BannerImage: {
     width: 768,
