@@ -8,7 +8,7 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2025-06-04T15:04:02.806Z</updated>
+<updated>2025-06-04T15:39:49.449Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -117,7 +117,7 @@
     <link href="https://portfolio.racca.me/carcere-territorio" />
     <id>https://portfolio.racca.me/carcere-territorio</id>
     <published>2023-10-24T19:00:00.000Z</published>
-    <updated>2024-01-25T11:00:00.000Z</updated>
+    <updated>2024-12-18T11:00:00.000Z</updated>
     <summary type="html"><![CDATA[Progetto Carcere Territorio]]></summary>
     <content type="html"><![CDATA[<h2 id="spettacolo-and-quot-le-finestre-and-quot"><a href="#spettacolo-and-quot-le-finestre-and-quot">Spettacolo &quot;Le Finestre&quot;</a></h2>
 <p>Il 24 Ottobre 2023 ho avuto il piacere di partecipare come spettatore allo spettacolo &quot;Finestre&quot; all&#39;interno dell carcere Lorusso e Cotugno.
@@ -143,6 +143,12 @@ Perchè il buio esiste per entrambe, non c&#39;è dubbio, anche se apparentement
 Il teatro è strumento di trasformazione per il detenuto.</p>
 <p>Nel carcere, i <em>concellini</em>, devono condividere tutto, anche l&#39;intimità.
 I detenuti cucinano nella propria cella, nel bagno.</p>
+<h3 id="relazione-sulla-situazione-manicomiale-in-italia"><a href="#relazione-sulla-situazione-manicomiale-in-italia">Relazione sulla situazione manicomiale in Italia</a></h3>
+<Iframe src="https://docs.google.com/document/d/e/2PACX-1vSnVViugVNKEzU6q8cFHtn6nmiz2guW8QFrGE23FH42m1B37Nrz0O0OXiJLf5IMUpezUoBjLWyVnjuZ/pub?embedded=true" title="Relazione situazione manicomiale"/>
+
+<h3 id="senza-sbarre"><a href="#senza-sbarre">Senza Sbarre</a></h3>
+<p>Dopo la lettura del libro &quot;Senza Sbarre&quot;, abbiamo avuto l&#39;opportunità di incotrare l&#39;autrice Cosima Buccoliero.</p>
+<Youtube id="FuyUlwkK97M" />
 ]]></content>
     <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
 <category term="Year-2023" scheme="https://portfolio.racca.me/?Year=2023" />
@@ -247,7 +253,7 @@ Gli standard di bellezza, la moda e le diete imposte alle donne contribuiscono a
     <link href="https://portfolio.racca.me/storia-della-mafia" />
     <id>https://portfolio.racca.me/storia-della-mafia</id>
     <published>2022-03-06T14:58:38.000Z</published>
-    <updated>2022-11-29T09:45:49.000Z</updated>
+    <updated>2025-05-10T09:45:49.000Z</updated>
     <summary type="html"><![CDATA[Lezioni sulla storia della mafia e le stragi, incontri con le Agende Rosse]]></summary>
     <content type="html"><![CDATA[<h2 id="agende-rosse"><a href="#agende-rosse">Agende Rosse</a></h2>
 <p>Il Movimento Agende Rosse è costituito da cittadini che agiscono affinché sia fatta piena luce sulla strage di Via D’Amelio a Palermo del 19 luglio 1992 nella quale furono uccisi il Magistrato Paolo Borsellino e gli agenti di Polizia Emanuela Loi, Agostino Catalano, Claudio Traina, Eddie Walter Cosina e Vincenzo Li Muli.</p>
@@ -272,6 +278,10 @@ Il video parla proprio degli attentati che uccisero i due magistrati, mettendo i
 <h2 id="peppino-impastato"><a href="#peppino-impastato">Peppino Impastato</a></h2>
 <p>Il video sottostante parla della vita di Giuseppe Impastato, detto Peppino, che ha combattuto contro la mafia in Sicilia negli anni &#39;70.</p>
 <Youtube id="ag1_vfwzgFA" />
+
+<h2 id="il-mio-silenzio-e-una-stella"><a href="#il-mio-silenzio-e-una-stella">Il mio silenzio è una stella</a></h2>
+<p>Dopo la lettura del libro &quot;Il mio silenzio è una stella&quot;, abbiamo avuto l&#39;opportunità di incotrare l&#39;autrice Sabrina Pisu.</p>
+<Youtube id="xCkwu6R7fdg" />
 ]]></content>
     <category term="Italiano" scheme="https://portfolio.racca.me/?tags=Italiano" />
 <category term="Year-2022" scheme="https://portfolio.racca.me/?Year=2022" />
