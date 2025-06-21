@@ -8,7 +8,7 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2025-06-21T10:37:42.973Z</updated>
+<updated>2025-06-21T10:40:44.240Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -37,13 +37,13 @@
 <category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
     </entry>
 <entry>
-    <title type="html"><![CDATA[Progetto 1522]]></title>
+    <title type="html"><![CDATA[Progetto Controllo Password]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
     <link href="https://portfolio.racca.me/password-check" />
     <id>https://portfolio.racca.me/password-check</id>
-    <published>2025-01-21T07:40:00.000Z</published>
-    <updated>2025-01-21T07:40:00.000Z</updated>
-    <summary type="html"><![CDATA[Progetto per la sensibilizzazione sulla violenza di genere]]></summary>
+    <published>2025-04-07T09:00:00.000Z</published>
+    <updated>2025-04-07T09:00:00.000Z</updated>
+    <summary type="html"><![CDATA[Progetto per la sensibilizzazione sulla sicurezza delle password]]></summary>
     <content type="html"><![CDATA[]]></content>
     <category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
 <category term="Year-2025" scheme="https://portfolio.racca.me/?Year=2025" />
