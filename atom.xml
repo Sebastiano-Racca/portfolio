@@ -8,7 +8,7 @@
 <icon>https://portfolio.racca.me/favicon.png</icon>
 <link href="https://portfolio.racca.me"/>
 <link href="https://portfolio.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2025-06-04T15:39:49.449Z</updated>
+<updated>2025-06-21T10:37:42.973Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -39,6 +39,19 @@
 <entry>
     <title type="html"><![CDATA[Progetto 1522]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://portfolio.racca.me/password-check" />
+    <id>https://portfolio.racca.me/password-check</id>
+    <published>2025-01-21T07:40:00.000Z</published>
+    <updated>2025-01-21T07:40:00.000Z</updated>
+    <summary type="html"><![CDATA[Progetto per la sensibilizzazione sulla violenza di genere]]></summary>
+    <content type="html"><![CDATA[]]></content>
+    <category term="TPSI" scheme="https://portfolio.racca.me/?tags=TPSI" />
+<category term="Year-2025" scheme="https://portfolio.racca.me/?Year=2025" />
+<category term="Language-English" scheme="https://portfolio.racca.me/?Language=English" />
+    </entry>
+<entry>
+    <title type="html"><![CDATA[Progetto 1522]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
     <link href="https://portfolio.racca.me/1522" />
     <id>https://portfolio.racca.me/1522</id>
     <published>2025-01-21T07:40:00.000Z</published>
@@ -61,7 +74,7 @@
     <content type="html"><![CDATA[<p><Video mp4="/about/monkey.mp4" id="Monkey" /></p>
 <h2 id="ciao-sono-sebastiano"><a href="#ciao-sono-sebastiano">Ciao, sono Sebastiano</a></h2>
 <ul>
-<li>👨‍💻 Sviluppatore full-time di 18 anni;</li>
+<li>👨‍💻 Sviluppatore full-time di 19 anni;</li>
 <li>⚜️ Scout Entusiasta;</li>
 <li>⚖️ Sostenitore della Parità di Diritti e Opportunità.</li>
 </ul>
