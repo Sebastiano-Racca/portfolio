@@ -9,10 +9,10 @@ options:
 ![Monkey](./monkey.mp4)
 
 ## Ciao, sono Sebastiano
-* 👨‍💻 Sviluppatore full-time di 18 anni;
+
+* 👨‍💻 Sviluppatore full-time di 19 anni;
 * ⚜️ Scout Entusiasta;
 * ⚖️ Sostenitore della Parità di Diritti e Opportunità.
-
 
 <hr>
 <br>
